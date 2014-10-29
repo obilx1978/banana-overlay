@@ -5,7 +5,7 @@ uncomment in: `/etc/layman/layman.cfg` the line
 `# overlay_defs : /etc/layman/overlays` to  
 `overlay_defs : /etc/layman/overlays`  
 and use the following commands  
-`wget -P /etc/layman/overlays/ https://raw.github.com/oblix1978/banana-overlay/master/obilx.xml`  
+`wget -P /etc/layman/overlays/ https://raw.github.com/obilx1978/banana-overlay/master/obilx.xml`  
 `layman -L`  
 `layman -a obilx-banana`
 
